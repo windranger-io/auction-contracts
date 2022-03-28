@@ -16,7 +16,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         name: Set up cache
         with:
           path: ~/.npm
@@ -46,7 +46,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         name: Set up cache
         with:
           path: ~/.npm
@@ -76,7 +76,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         name: Set up cache
         with:
           path: ~/.npm
@@ -107,7 +107,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         name: Set up cache
         with:
           path: ~/.npm
